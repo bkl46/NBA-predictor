@@ -84,19 +84,24 @@ def get_game_data(season, start_date, end_date, output_csv):
     games_df = games_df[(games_df["GAME_DATE"] >= start_dt) & (games_df["GAME_DATE"] <= end_dt)]
     games_df =games_df.head(1)
     print(len(games_df), "games found between", start_date, "and", end_date)
-
+    count = 0
     all_fieldnames = set()
     row_data_list = []
     try:
         for gidx, game in games_df.iterrows():
+  
             game_id = game['GAME_ID']
             game_date = game['GAME_DATE']
             boxscore = safe_api_call(boxscoretraditionalv2.BoxScoreTraditionalV2, game_id=game_id).get_data_frames()[0]
             for pidx, player_row in boxscore.iterrows():
+                count += 1
+                if count > 10:
+                    continue
                 print(f"player{pidx} of game{gidx}")
                 if player_row['MIN'] == '0':
                     continue
                 player_name = player_row['PLAYER_NAME']
+                print("Processing player:", player_name)
                 player = players.find_players_by_full_name(player_name)
                 if not player:
                     continue
@@ -104,13 +109,19 @@ def get_game_data(season, start_date, end_date, output_csv):
                 team_id = player_row['TEAM_ID']
                 opp_ids = [tid for tid in boxscore['TEAM_ID'].unique() if tid != team_id]
                 opp_team_id = opp_ids[0] if opp_ids else None
-
+                print("Season Stats:")
                 season_avg = get_player_season_avg(player_id, season)
+                print("Recent Games Stats:")
                 recent_avg = get_recent_games_avg(player_id, season, game_date)
+                print("Recent vs Team Stats:")
                 recent_vs_team_avg = get_recent_vs_team_avg(player_id, season, game_date, opp_team_id)
+                print("Team Stats:")
                 team_stats = get_team_stats(team_id, game_date, season)
+                print("Opponent Team Stats:")
                 opp_stats = get_team_stats(opp_team_id, game_date, season)
 
+                print("Compiling row data for player:", player_name)
+                
                 row_data = {
                     **player_row.to_dict(),
                     **{f"SEASON_{k}": v for k, v in season_avg.items()},
@@ -125,7 +136,8 @@ def get_game_data(season, start_date, end_date, output_csv):
         print("Critical timeout encountered. Saving collected data and exiting:", e)
     finally:
         # Write to CSV with all fieldnames
-        with open(output_csv, mode='w', newline='') as f:
+        print("Writing data to CSV:")
+        with open(output_csv, mode='w', newline='', encoding='utf-8') as f:
             writer = csv.DictWriter(f, fieldnames=list(all_fieldnames))
             writer.writeheader()
             for row_data in row_data_list:
