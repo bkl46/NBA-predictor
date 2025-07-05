@@ -1,0 +1,777 @@
+NBA Data Collection - Excluded Players Report
+==================================================
+
+Total excluded players: 55
+Total included players: 30
+
+EXCLUDED PLAYERS DETAILS:
+------------------------------
+
+1. Player: Reggie Jackson
+   Game ID: 0022300478
+   Game Date: 2024-01-04
+   Player ID: 202704
+   Team ID: 1610612743
+   Reason: Missing required data fields
+   Missing Fields (1):
+     - START_POSITION
+
+--------------------------------------------------
+
+2. Player: Christian Braun
+   Game ID: 0022300478
+   Game Date: 2024-01-04
+   Player ID: 1631128
+   Team ID: 1610612743
+   Reason: Missing required data fields
+   Missing Fields (1):
+     - START_POSITION
+
+--------------------------------------------------
+
+3. Player: Peyton Watson
+   Game ID: 0022300478
+   Game Date: 2024-01-04
+   Player ID: 1631212
+   Team ID: 1610612743
+   Reason: Missing required data fields
+   Missing Fields (1):
+     - START_POSITION
+
+--------------------------------------------------
+
+4. Player: Julian Strawther
+   Game ID: 0022300478
+   Game Date: 2024-01-04
+   Player ID: 1631124
+   Team ID: 1610612743
+   Reason: Missing required data fields
+   Missing Fields (1):
+     - START_POSITION
+
+--------------------------------------------------
+
+5. Player: Zeke Nnaji
+   Game ID: 0022300478
+   Game Date: 2024-01-04
+   Player ID: 1630192
+   Team ID: 1610612743
+   Reason: Missing required data fields
+   Missing Fields (1):
+     - START_POSITION
+
+--------------------------------------------------
+
+6. Player: Collin Gillespie
+   Game ID: 0022300478
+   Game Date: 2024-01-04
+   Player ID: 1631221
+   Team ID: 1610612743
+   Reason: Missing required data fields
+   Missing Fields (2):
+     - START_POSITION
+     - MIN
+
+--------------------------------------------------
+
+7. Player: Justin Holiday
+   Game ID: 0022300478
+   Game Date: 2024-01-04
+   Player ID: 203200
+   Team ID: 1610612743
+   Reason: Missing required data fields
+   Missing Fields (2):
+     - START_POSITION
+     - MIN
+
+--------------------------------------------------
+
+8. Player: Jay Huff
+   Game ID: 0022300478
+   Game Date: 2024-01-04
+   Player ID: 1630643
+   Team ID: 1610612743
+   Reason: Missing required data fields
+   Missing Fields (2):
+     - START_POSITION
+     - MIN
+
+--------------------------------------------------
+
+9. Player: DeAndre Jordan
+   Game ID: 0022300478
+   Game Date: 2024-01-04
+   Player ID: 201599
+   Team ID: 1610612743
+   Reason: Missing required data fields
+   Missing Fields (2):
+     - START_POSITION
+     - MIN
+
+--------------------------------------------------
+
+10. Player: Braxton Key
+   Game ID: 0022300478
+   Game Date: 2024-01-04
+   Player ID: 1630296
+   Team ID: 1610612743
+   Reason: Missing required data fields
+   Missing Fields (2):
+     - START_POSITION
+     - MIN
+
+--------------------------------------------------
+
+11. Player: Andrew Wiggins
+   Game ID: 0022300478
+   Game Date: 2024-01-04
+   Player ID: 203952
+   Team ID: 1610612744
+   Reason: Missing required data fields
+   Missing Fields (1):
+     - START_POSITION
+
+--------------------------------------------------
+
+12. Player: Trayce Jackson-Davis
+   Game ID: 0022300478
+   Game Date: 2024-01-04
+   Player ID: 1631218
+   Team ID: 1610612744
+   Reason: Missing required data fields
+   Missing Fields (1):
+     - START_POSITION
+
+--------------------------------------------------
+
+13. Player: Dario Šarić
+   Game ID: 0022300478
+   Game Date: 2024-01-04
+   Player ID: 203967
+   Team ID: 1610612744
+   Reason: Missing required data fields
+   Missing Fields (1):
+     - START_POSITION
+
+--------------------------------------------------
+
+14. Player: Brandin Podziemski
+   Game ID: 0022300478
+   Game Date: 2024-01-04
+   Player ID: 1641764
+   Team ID: 1610612744
+   Reason: Missing required data fields
+   Missing Fields (1):
+     - START_POSITION
+
+--------------------------------------------------
+
+15. Player: Draymond Green
+   Game ID: 0022300478
+   Game Date: 2024-01-04
+   Player ID: 203110
+   Team ID: 1610612744
+   Reason: Missing required data fields
+   Missing Fields (2):
+     - START_POSITION
+     - MIN
+
+--------------------------------------------------
+
+16. Player: Cory Joseph
+   Game ID: 0022300478
+   Game Date: 2024-01-04
+   Player ID: 202709
+   Team ID: 1610612744
+   Reason: Missing required data fields
+   Missing Fields (2):
+     - START_POSITION
+     - MIN
+
+--------------------------------------------------
+
+17. Player: Moses Moody
+   Game ID: 0022300478
+   Game Date: 2024-01-04
+   Player ID: 1630541
+   Team ID: 1610612744
+   Reason: Missing required data fields
+   Missing Fields (2):
+     - START_POSITION
+     - MIN
+
+--------------------------------------------------
+
+18. Player: Lester Quinones
+   Game ID: 0022300478
+   Game Date: 2024-01-04
+   Player ID: 1631311
+   Team ID: 1610612744
+   Reason: Missing required data fields
+   Missing Fields (2):
+     - START_POSITION
+     - MIN
+
+--------------------------------------------------
+
+19. Player: Jerome Robinson
+   Game ID: 0022300478
+   Game Date: 2024-01-04
+   Player ID: 1629010
+   Team ID: 1610612744
+   Reason: Missing required data fields
+   Missing Fields (2):
+     - START_POSITION
+     - MIN
+
+--------------------------------------------------
+
+20. Player: Bobby Portis
+   Game ID: 0022300477
+   Game Date: 2024-01-04
+   Player ID: 1626171
+   Team ID: 1610612749
+   Reason: Missing required data fields
+   Missing Fields (1):
+     - START_POSITION
+
+--------------------------------------------------
+
+21. Player: Pat Connaughton
+   Game ID: 0022300477
+   Game Date: 2024-01-04
+   Player ID: 1626192
+   Team ID: 1610612749
+   Reason: Missing required data fields
+   Missing Fields (1):
+     - START_POSITION
+
+--------------------------------------------------
+
+22. Player: MarJon Beauchamp
+   Game ID: 0022300477
+   Game Date: 2024-01-04
+   Player ID: 1630699
+   Team ID: 1610612749
+   Reason: Missing required data fields
+   Missing Fields (1):
+     - START_POSITION
+
+--------------------------------------------------
+
+23. Player: Cameron Payne
+   Game ID: 0022300477
+   Game Date: 2024-01-04
+   Player ID: 1626166
+   Team ID: 1610612749
+   Reason: Missing required data fields
+   Missing Fields (1):
+     - START_POSITION
+
+--------------------------------------------------
+
+24. Player: Andre Jackson Jr.
+   Game ID: 0022300477
+   Game Date: 2024-01-04
+   Player ID: 1641748
+   Team ID: 1610612749
+   Reason: Missing required data fields
+   Missing Fields (1):
+     - START_POSITION
+
+--------------------------------------------------
+
+25. Player: Thanasis Antetokounmpo
+   Game ID: 0022300477
+   Game Date: 2024-01-04
+   Player ID: 203648
+   Team ID: 1610612749
+   Reason: Missing required data fields
+   Missing Fields (2):
+     - START_POSITION
+     - MIN
+
+--------------------------------------------------
+
+26. Player: AJ Green
+   Game ID: 0022300477
+   Game Date: 2024-01-04
+   Player ID: 1631260
+   Team ID: 1610612749
+   Reason: Missing required data fields
+   Missing Fields (2):
+     - START_POSITION
+     - MIN
+
+--------------------------------------------------
+
+27. Player: Chris Livingston
+   Game ID: 0022300477
+   Game Date: 2024-01-04
+   Player ID: 1641753
+   Team ID: 1610612749
+   Reason: Missing required data fields
+   Missing Fields (2):
+     - START_POSITION
+     - MIN
+
+--------------------------------------------------
+
+28. Player: Robin Lopez
+   Game ID: 0022300477
+   Game Date: 2024-01-04
+   Player ID: 201577
+   Team ID: 1610612749
+   Reason: Missing required data fields
+   Missing Fields (2):
+     - START_POSITION
+     - MIN
+
+--------------------------------------------------
+
+29. Player: Lindell Wigginton
+   Game ID: 0022300477
+   Game Date: 2024-01-04
+   Player ID: 1629623
+   Team ID: 1610612749
+   Reason: Missing required data fields
+   Missing Fields (2):
+     - START_POSITION
+     - MIN
+
+--------------------------------------------------
+
+30. Player: Dominick Barlow
+   Game ID: 0022300477
+   Game Date: 2024-01-04
+   Player ID: 1631230
+   Team ID: 1610612759
+   Reason: Missing required data fields
+   Missing Fields (1):
+     - START_POSITION
+
+--------------------------------------------------
+
+31. Player: Cedi Osman
+   Game ID: 0022300477
+   Game Date: 2024-01-04
+   Player ID: 1626224
+   Team ID: 1610612759
+   Reason: Missing required data fields
+   Missing Fields (1):
+     - START_POSITION
+
+--------------------------------------------------
+
+32. Player: Keldon Johnson
+   Game ID: 0022300477
+   Game Date: 2024-01-04
+   Player ID: 1629640
+   Team ID: 1610612759
+   Reason: Missing required data fields
+   Missing Fields (1):
+     - START_POSITION
+
+--------------------------------------------------
+
+33. Player: Blake Wesley
+   Game ID: 0022300477
+   Game Date: 2024-01-04
+   Player ID: 1631104
+   Team ID: 1610612759
+   Reason: Missing required data fields
+   Missing Fields (1):
+     - START_POSITION
+
+--------------------------------------------------
+
+34. Player: Sandro Mamukelashvili
+   Game ID: 0022300477
+   Game Date: 2024-01-04
+   Player ID: 1630572
+   Team ID: 1610612759
+   Reason: Missing required data fields
+   Missing Fields (1):
+     - START_POSITION
+
+--------------------------------------------------
+
+35. Player: Malaki Branham
+   Game ID: 0022300477
+   Game Date: 2024-01-04
+   Player ID: 1631103
+   Team ID: 1610612759
+   Reason: Missing required data fields
+   Missing Fields (2):
+     - START_POSITION
+     - MIN
+
+--------------------------------------------------
+
+36. Player: Mamadi Diakite
+   Game ID: 0022300477
+   Game Date: 2024-01-04
+   Player ID: 1629603
+   Team ID: 1610612759
+   Reason: Missing required data fields
+   Missing Fields (46):
+     - START_POSITION
+     - MIN
+     - RECENT_Player_ID
+     - RECENT_MIN
+     - RECENT_FGM
+     - RECENT_FGA
+     - RECENT_FG_PCT
+     - RECENT_FG3M
+     - RECENT_FG3A
+     - RECENT_FG3_PCT
+     - RECENT_FTM
+     - RECENT_FTA
+     - RECENT_FT_PCT
+     - RECENT_OREB
+     - RECENT_DREB
+     - RECENT_REB
+     - RECENT_AST
+     - RECENT_STL
+     - RECENT_BLK
+     - RECENT_TOV
+     - RECENT_PF
+     - RECENT_PTS
+     - RECENT_PLUS_MINUS
+     - RECENT_VIDEO_AVAILABLE
+     - VS_TEAM_Player_ID
+     - VS_TEAM_MIN
+     - VS_TEAM_FGM
+     - VS_TEAM_FGA
+     - VS_TEAM_FG_PCT
+     - VS_TEAM_FG3M
+     - VS_TEAM_FG3A
+     - VS_TEAM_FG3_PCT
+     - VS_TEAM_FTM
+     - VS_TEAM_FTA
+     - VS_TEAM_FT_PCT
+     - VS_TEAM_OREB
+     - VS_TEAM_DREB
+     - VS_TEAM_REB
+     - VS_TEAM_AST
+     - VS_TEAM_STL
+     - VS_TEAM_BLK
+     - VS_TEAM_TOV
+     - VS_TEAM_PF
+     - VS_TEAM_PTS
+     - VS_TEAM_PLUS_MINUS
+     - VS_TEAM_VIDEO_AVAILABLE
+
+--------------------------------------------------
+
+37. Player: Devonte' Graham
+   Game ID: 0022300477
+   Game Date: 2024-01-04
+   Player ID: 1628984
+   Team ID: 1610612759
+   Reason: Missing required data fields
+   Missing Fields (2):
+     - START_POSITION
+     - MIN
+
+--------------------------------------------------
+
+38. Player: Bobby Portis
+   Game ID: 0022300477
+   Game Date: 2024-01-04
+   Player ID: 1626171
+   Team ID: 1610612749
+   Reason: Missing required data fields
+   Missing Fields (1):
+     - START_POSITION
+
+--------------------------------------------------
+
+39. Player: Pat Connaughton
+   Game ID: 0022300477
+   Game Date: 2024-01-04
+   Player ID: 1626192
+   Team ID: 1610612749
+   Reason: Missing required data fields
+   Missing Fields (1):
+     - START_POSITION
+
+--------------------------------------------------
+
+40. Player: MarJon Beauchamp
+   Game ID: 0022300477
+   Game Date: 2024-01-04
+   Player ID: 1630699
+   Team ID: 1610612749
+   Reason: Missing required data fields
+   Missing Fields (1):
+     - START_POSITION
+
+--------------------------------------------------
+
+41. Player: Cameron Payne
+   Game ID: 0022300477
+   Game Date: 2024-01-04
+   Player ID: 1626166
+   Team ID: 1610612749
+   Reason: Missing required data fields
+   Missing Fields (1):
+     - START_POSITION
+
+--------------------------------------------------
+
+42. Player: Andre Jackson Jr.
+   Game ID: 0022300477
+   Game Date: 2024-01-04
+   Player ID: 1641748
+   Team ID: 1610612749
+   Reason: Missing required data fields
+   Missing Fields (1):
+     - START_POSITION
+
+--------------------------------------------------
+
+43. Player: Thanasis Antetokounmpo
+   Game ID: 0022300477
+   Game Date: 2024-01-04
+   Player ID: 203648
+   Team ID: 1610612749
+   Reason: Missing required data fields
+   Missing Fields (2):
+     - START_POSITION
+     - MIN
+
+--------------------------------------------------
+
+44. Player: AJ Green
+   Game ID: 0022300477
+   Game Date: 2024-01-04
+   Player ID: 1631260
+   Team ID: 1610612749
+   Reason: Missing required data fields
+   Missing Fields (2):
+     - START_POSITION
+     - MIN
+
+--------------------------------------------------
+
+45. Player: Chris Livingston
+   Game ID: 0022300477
+   Game Date: 2024-01-04
+   Player ID: 1641753
+   Team ID: 1610612749
+   Reason: Missing required data fields
+   Missing Fields (2):
+     - START_POSITION
+     - MIN
+
+--------------------------------------------------
+
+46. Player: Robin Lopez
+   Game ID: 0022300477
+   Game Date: 2024-01-04
+   Player ID: 201577
+   Team ID: 1610612749
+   Reason: Missing required data fields
+   Missing Fields (2):
+     - START_POSITION
+     - MIN
+
+--------------------------------------------------
+
+47. Player: Lindell Wigginton
+   Game ID: 0022300477
+   Game Date: 2024-01-04
+   Player ID: 1629623
+   Team ID: 1610612749
+   Reason: Missing required data fields
+   Missing Fields (2):
+     - START_POSITION
+     - MIN
+
+--------------------------------------------------
+
+48. Player: Dominick Barlow
+   Game ID: 0022300477
+   Game Date: 2024-01-04
+   Player ID: 1631230
+   Team ID: 1610612759
+   Reason: Missing required data fields
+   Missing Fields (1):
+     - START_POSITION
+
+--------------------------------------------------
+
+49. Player: Cedi Osman
+   Game ID: 0022300477
+   Game Date: 2024-01-04
+   Player ID: 1626224
+   Team ID: 1610612759
+   Reason: Missing required data fields
+   Missing Fields (1):
+     - START_POSITION
+
+--------------------------------------------------
+
+50. Player: Keldon Johnson
+   Game ID: 0022300477
+   Game Date: 2024-01-04
+   Player ID: 1629640
+   Team ID: 1610612759
+   Reason: Missing required data fields
+   Missing Fields (1):
+     - START_POSITION
+
+--------------------------------------------------
+
+51. Player: Blake Wesley
+   Game ID: 0022300477
+   Game Date: 2024-01-04
+   Player ID: 1631104
+   Team ID: 1610612759
+   Reason: Missing required data fields
+   Missing Fields (1):
+     - START_POSITION
+
+--------------------------------------------------
+
+52. Player: Sandro Mamukelashvili
+   Game ID: 0022300477
+   Game Date: 2024-01-04
+   Player ID: 1630572
+   Team ID: 1610612759
+   Reason: Missing required data fields
+   Missing Fields (1):
+     - START_POSITION
+
+--------------------------------------------------
+
+53. Player: Malaki Branham
+   Game ID: 0022300477
+   Game Date: 2024-01-04
+   Player ID: 1631103
+   Team ID: 1610612759
+   Reason: Missing required data fields
+   Missing Fields (2):
+     - START_POSITION
+     - MIN
+
+--------------------------------------------------
+
+54. Player: Mamadi Diakite
+   Game ID: 0022300477
+   Game Date: 2024-01-04
+   Player ID: 1629603
+   Team ID: 1610612759
+   Reason: Missing required data fields
+   Missing Fields (46):
+     - START_POSITION
+     - MIN
+     - RECENT_Player_ID
+     - RECENT_MIN
+     - RECENT_FGM
+     - RECENT_FGA
+     - RECENT_FG_PCT
+     - RECENT_FG3M
+     - RECENT_FG3A
+     - RECENT_FG3_PCT
+     - RECENT_FTM
+     - RECENT_FTA
+     - RECENT_FT_PCT
+     - RECENT_OREB
+     - RECENT_DREB
+     - RECENT_REB
+     - RECENT_AST
+     - RECENT_STL
+     - RECENT_BLK
+     - RECENT_TOV
+     - RECENT_PF
+     - RECENT_PTS
+     - RECENT_PLUS_MINUS
+     - RECENT_VIDEO_AVAILABLE
+     - VS_TEAM_Player_ID
+     - VS_TEAM_MIN
+     - VS_TEAM_FGM
+     - VS_TEAM_FGA
+     - VS_TEAM_FG_PCT
+     - VS_TEAM_FG3M
+     - VS_TEAM_FG3A
+     - VS_TEAM_FG3_PCT
+     - VS_TEAM_FTM
+     - VS_TEAM_FTA
+     - VS_TEAM_FT_PCT
+     - VS_TEAM_OREB
+     - VS_TEAM_DREB
+     - VS_TEAM_REB
+     - VS_TEAM_AST
+     - VS_TEAM_STL
+     - VS_TEAM_BLK
+     - VS_TEAM_TOV
+     - VS_TEAM_PF
+     - VS_TEAM_PTS
+     - VS_TEAM_PLUS_MINUS
+     - VS_TEAM_VIDEO_AVAILABLE
+
+--------------------------------------------------
+
+55. Player: Devonte' Graham
+   Game ID: 0022300477
+   Game Date: 2024-01-04
+   Player ID: 1628984
+   Team ID: 1610612759
+   Reason: Missing required data fields
+   Missing Fields (2):
+     - START_POSITION
+     - MIN
+
+--------------------------------------------------
+
+MISSING FIELDS FREQUENCY ANALYSIS:
+-----------------------------------
+
+START_POSITION: 55 players missing
+MIN: 26 players missing
+RECENT_Player_ID: 2 players missing
+RECENT_MIN: 2 players missing
+RECENT_FGM: 2 players missing
+RECENT_FGA: 2 players missing
+RECENT_FG_PCT: 2 players missing
+RECENT_FG3M: 2 players missing
+RECENT_FG3A: 2 players missing
+RECENT_FG3_PCT: 2 players missing
+RECENT_FTM: 2 players missing
+RECENT_FTA: 2 players missing
+RECENT_FT_PCT: 2 players missing
+RECENT_OREB: 2 players missing
+RECENT_DREB: 2 players missing
+RECENT_REB: 2 players missing
+RECENT_AST: 2 players missing
+RECENT_STL: 2 players missing
+RECENT_BLK: 2 players missing
+RECENT_TOV: 2 players missing
+RECENT_PF: 2 players missing
+RECENT_PTS: 2 players missing
+RECENT_PLUS_MINUS: 2 players missing
+RECENT_VIDEO_AVAILABLE: 2 players missing
+VS_TEAM_Player_ID: 2 players missing
+VS_TEAM_MIN: 2 players missing
+VS_TEAM_FGM: 2 players missing
+VS_TEAM_FGA: 2 players missing
+VS_TEAM_FG_PCT: 2 players missing
+VS_TEAM_FG3M: 2 players missing
+VS_TEAM_FG3A: 2 players missing
+VS_TEAM_FG3_PCT: 2 players missing
+VS_TEAM_FTM: 2 players missing
+VS_TEAM_FTA: 2 players missing
+VS_TEAM_FT_PCT: 2 players missing
+VS_TEAM_OREB: 2 players missing
+VS_TEAM_DREB: 2 players missing
+VS_TEAM_REB: 2 players missing
+VS_TEAM_AST: 2 players missing
+VS_TEAM_STL: 2 players missing
+VS_TEAM_BLK: 2 players missing
+VS_TEAM_TOV: 2 players missing
+VS_TEAM_PF: 2 players missing
+VS_TEAM_PTS: 2 players missing
+VS_TEAM_PLUS_MINUS: 2 players missing
+VS_TEAM_VIDEO_AVAILABLE: 2 players missing

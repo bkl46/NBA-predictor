@@ -1,68 +1,182 @@
 NBA Data Collection - Excluded Players Report
 ==================================================
 
-Total excluded players: 5
-Total included players: 5
+Total excluded players: 2
+Total included players: 1
 
 EXCLUDED PLAYERS DETAILS:
 ------------------------------
 
-1. Player: Reggie Jackson
+1. Player: Aaron Gordon
    Game ID: 0022300478
    Game Date: 2024-01-04
-   Player ID: 202704
+   Player ID: 203932
    Team ID: 1610612743
    Reason: Missing required data fields
-   Missing Fields (1):
-     - START_POSITION
+   Missing Fields (6):
+     - TEAM_W_PCT
+     - TEAM_W
+     - TEAM_L
+     - OPP_W_PCT
+     - OPP_W
+     - OPP_L
 
 --------------------------------------------------
 
-2. Player: Christian Braun
+2. Player: Nikola Jokić
    Game ID: 0022300478
    Game Date: 2024-01-04
-   Player ID: 1631128
+   Player ID: 203999
    Team ID: 1610612743
    Reason: Missing required data fields
-   Missing Fields (1):
-     - START_POSITION
-
---------------------------------------------------
-
-3. Player: Peyton Watson
-   Game ID: 0022300478
-   Game Date: 2024-01-04
-   Player ID: 1631212
-   Team ID: 1610612743
-   Reason: Missing required data fields
-   Missing Fields (1):
-     - START_POSITION
-
---------------------------------------------------
-
-4. Player: Julian Strawther
-   Game ID: 0022300478
-   Game Date: 2024-01-04
-   Player ID: 1631124
-   Team ID: 1610612743
-   Reason: Missing required data fields
-   Missing Fields (1):
-     - START_POSITION
-
---------------------------------------------------
-
-5. Player: Zeke Nnaji
-   Game ID: 0022300478
-   Game Date: 2024-01-04
-   Player ID: 1630192
-   Team ID: 1610612743
-   Reason: Missing required data fields
-   Missing Fields (1):
-     - START_POSITION
+   Missing Fields (72):
+     - SEASON_Player_ID
+     - SEASON_MIN
+     - SEASON_FGM
+     - SEASON_FGA
+     - SEASON_FG_PCT
+     - SEASON_FG3M
+     - SEASON_FG3A
+     - SEASON_FG3_PCT
+     - SEASON_FTM
+     - SEASON_FTA
+     - SEASON_FT_PCT
+     - SEASON_OREB
+     - SEASON_DREB
+     - SEASON_REB
+     - SEASON_AST
+     - SEASON_STL
+     - SEASON_BLK
+     - SEASON_TOV
+     - SEASON_PF
+     - SEASON_PTS
+     - SEASON_PLUS_MINUS
+     - SEASON_VIDEO_AVAILABLE
+     - RECENT_Player_ID
+     - RECENT_MIN
+     - RECENT_FGM
+     - RECENT_FGA
+     - RECENT_FG_PCT
+     - RECENT_FG3M
+     - RECENT_FG3A
+     - RECENT_FG3_PCT
+     - RECENT_FTM
+     - RECENT_FTA
+     - RECENT_FT_PCT
+     - RECENT_OREB
+     - RECENT_DREB
+     - RECENT_REB
+     - RECENT_AST
+     - RECENT_STL
+     - RECENT_BLK
+     - RECENT_TOV
+     - RECENT_PF
+     - RECENT_PTS
+     - RECENT_PLUS_MINUS
+     - RECENT_VIDEO_AVAILABLE
+     - VS_TEAM_Player_ID
+     - VS_TEAM_MIN
+     - VS_TEAM_FGM
+     - VS_TEAM_FGA
+     - VS_TEAM_FG_PCT
+     - VS_TEAM_FG3M
+     - VS_TEAM_FG3A
+     - VS_TEAM_FG3_PCT
+     - VS_TEAM_FTM
+     - VS_TEAM_FTA
+     - VS_TEAM_FT_PCT
+     - VS_TEAM_OREB
+     - VS_TEAM_DREB
+     - VS_TEAM_REB
+     - VS_TEAM_AST
+     - VS_TEAM_STL
+     - VS_TEAM_BLK
+     - VS_TEAM_TOV
+     - VS_TEAM_PF
+     - VS_TEAM_PTS
+     - VS_TEAM_PLUS_MINUS
+     - VS_TEAM_VIDEO_AVAILABLE
+     - TEAM_W_PCT
+     - TEAM_W
+     - TEAM_L
+     - OPP_W_PCT
+     - OPP_W
+     - OPP_L
 
 --------------------------------------------------
 
 MISSING FIELDS FREQUENCY ANALYSIS:
 -----------------------------------
 
-START_POSITION: 5 players missing
+TEAM_W_PCT: 2 players missing
+TEAM_W: 2 players missing
+TEAM_L: 2 players missing
+OPP_W_PCT: 2 players missing
+OPP_W: 2 players missing
+OPP_L: 2 players missing
+SEASON_Player_ID: 1 players missing
+SEASON_MIN: 1 players missing
+SEASON_FGM: 1 players missing
+SEASON_FGA: 1 players missing
+SEASON_FG_PCT: 1 players missing
+SEASON_FG3M: 1 players missing
+SEASON_FG3A: 1 players missing
+SEASON_FG3_PCT: 1 players missing
+SEASON_FTM: 1 players missing
+SEASON_FTA: 1 players missing
+SEASON_FT_PCT: 1 players missing
+SEASON_OREB: 1 players missing
+SEASON_DREB: 1 players missing
+SEASON_REB: 1 players missing
+SEASON_AST: 1 players missing
+SEASON_STL: 1 players missing
+SEASON_BLK: 1 players missing
+SEASON_TOV: 1 players missing
+SEASON_PF: 1 players missing
+SEASON_PTS: 1 players missing
+SEASON_PLUS_MINUS: 1 players missing
+SEASON_VIDEO_AVAILABLE: 1 players missing
+RECENT_Player_ID: 1 players missing
+RECENT_MIN: 1 players missing
+RECENT_FGM: 1 players missing
+RECENT_FGA: 1 players missing
+RECENT_FG_PCT: 1 players missing
+RECENT_FG3M: 1 players missing
+RECENT_FG3A: 1 players missing
+RECENT_FG3_PCT: 1 players missing
+RECENT_FTM: 1 players missing
+RECENT_FTA: 1 players missing
+RECENT_FT_PCT: 1 players missing
+RECENT_OREB: 1 players missing
+RECENT_DREB: 1 players missing
+RECENT_REB: 1 players missing
+RECENT_AST: 1 players missing
+RECENT_STL: 1 players missing
+RECENT_BLK: 1 players missing
+RECENT_TOV: 1 players missing
+RECENT_PF: 1 players missing
+RECENT_PTS: 1 players missing
+RECENT_PLUS_MINUS: 1 players missing
+RECENT_VIDEO_AVAILABLE: 1 players missing
+VS_TEAM_Player_ID: 1 players missing
+VS_TEAM_MIN: 1 players missing
+VS_TEAM_FGM: 1 players missing
+VS_TEAM_FGA: 1 players missing
+VS_TEAM_FG_PCT: 1 players missing
+VS_TEAM_FG3M: 1 players missing
+VS_TEAM_FG3A: 1 players missing
+VS_TEAM_FG3_PCT: 1 players missing
+VS_TEAM_FTM: 1 players missing
+VS_TEAM_FTA: 1 players missing
+VS_TEAM_FT_PCT: 1 players missing
+VS_TEAM_OREB: 1 players missing
+VS_TEAM_DREB: 1 players missing
+VS_TEAM_REB: 1 players missing
+VS_TEAM_AST: 1 players missing
+VS_TEAM_STL: 1 players missing
+VS_TEAM_BLK: 1 players missing
+VS_TEAM_TOV: 1 players missing
+VS_TEAM_PF: 1 players missing
+VS_TEAM_PTS: 1 players missing
+VS_TEAM_PLUS_MINUS: 1 players missing
+VS_TEAM_VIDEO_AVAILABLE: 1 players missing

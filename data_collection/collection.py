@@ -143,7 +143,7 @@ def get_game_data(season, start_date, end_date, output_csv):
     games_df["GAME_DATE"] = pd.to_datetime(games_df["GAME_DATE"])
     games_df = games_df[(games_df["GAME_DATE"] >= start_dt) & (games_df["GAME_DATE"] <= end_dt)]
     games_df.to_csv("filtered_games_df.csv", index=False)  # Save filtered games_df for debugging
-    games_df = games_df.head(1)
+    #games_df = games_df.head(1)
     print(len(games_df), "games found between", start_date, "and", end_date)
     
     
@@ -168,9 +168,9 @@ def get_game_data(season, start_date, end_date, output_csv):
             
             
             for pidx, player_row in boxscore.iterrows():
-                count += 1
+                """count += 1
                 if count > 10:
-                    continue
+                    continue"""
                     
                 print(f"player{pidx} of game{gidx}")
                 if player_row['MIN'] == '0':
@@ -326,4 +326,4 @@ def get_game_data(season, start_date, end_date, output_csv):
         print(f"Report includes {len(excluded_players)} excluded players")
 
 # Example usage:
-get_game_data("2023-24", "2024-01-04", "2024-01-04", "nba_games_output_organized16.csv")
+#get_game_data("2023-24", "2024-01-04", "2024-01-04", "nba_games_output_organized20.csv")
