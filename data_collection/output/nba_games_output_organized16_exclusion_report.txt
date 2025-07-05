@@ -1,0 +1,68 @@
+NBA Data Collection - Excluded Players Report
+==================================================
+
+Total excluded players: 5
+Total included players: 5
+
+EXCLUDED PLAYERS DETAILS:
+------------------------------
+
+1. Player: Reggie Jackson
+   Game ID: 0022300478
+   Game Date: 2024-01-04
+   Player ID: 202704
+   Team ID: 1610612743
+   Reason: Missing required data fields
+   Missing Fields (1):
+     - START_POSITION
+
+--------------------------------------------------
+
+2. Player: Christian Braun
+   Game ID: 0022300478
+   Game Date: 2024-01-04
+   Player ID: 1631128
+   Team ID: 1610612743
+   Reason: Missing required data fields
+   Missing Fields (1):
+     - START_POSITION
+
+--------------------------------------------------
+
+3. Player: Peyton Watson
+   Game ID: 0022300478
+   Game Date: 2024-01-04
+   Player ID: 1631212
+   Team ID: 1610612743
+   Reason: Missing required data fields
+   Missing Fields (1):
+     - START_POSITION
+
+--------------------------------------------------
+
+4. Player: Julian Strawther
+   Game ID: 0022300478
+   Game Date: 2024-01-04
+   Player ID: 1631124
+   Team ID: 1610612743
+   Reason: Missing required data fields
+   Missing Fields (1):
+     - START_POSITION
+
+--------------------------------------------------
+
+5. Player: Zeke Nnaji
+   Game ID: 0022300478
+   Game Date: 2024-01-04
+   Player ID: 1630192
+   Team ID: 1610612743
+   Reason: Missing required data fields
+   Missing Fields (1):
+     - START_POSITION
+
+--------------------------------------------------
+
+MISSING FIELDS FREQUENCY ANALYSIS:
+-----------------------------------
+
+START_POSITION: 5 players missing

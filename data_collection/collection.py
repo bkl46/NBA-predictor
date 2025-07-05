@@ -169,7 +169,7 @@ def get_game_data(season, start_date, end_date, output_csv):
             
             for pidx, player_row in boxscore.iterrows():
                 count += 1
-                if count > 5:
+                if count > 10:
                     continue
                     
                 print(f"player{pidx} of game{gidx}")
@@ -252,7 +252,8 @@ def get_game_data(season, start_date, end_date, output_csv):
         print("Error encountered:", e)
         print("Saving collected data and exiting...")
     finally:
-        folder_path = r'C:\Users\ucbra\OneDrive\Documents\NBA\output'
+        folder_path = r'C:\Users\ucbra\OneDrive\Documents\NBA\data_collection\output'
+        
         csv_path = os.path.join(folder_path, output_csv)
 
         if not row_data_list:
@@ -325,4 +326,4 @@ def get_game_data(season, start_date, end_date, output_csv):
         print(f"Report includes {len(excluded_players)} excluded players")
 
 # Example usage:
-get_game_data("2023-24", "2024-01-04", "2024-01-04", "nba_games_output_organized15.csv")
+get_game_data("2023-24", "2024-01-04", "2024-01-04", "nba_games_output_organized16.csv")
