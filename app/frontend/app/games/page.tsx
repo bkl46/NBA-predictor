@@ -15,9 +15,11 @@ export default function GamesPage() {
 
   useEffect(() => {
     const fetchGames = async () => {
+      debugger;
       setLoading(true);
       setError("");
       try {
+        var s = process.env.NEXT_PUBLIC_API_BASE_URL
         const res = await axios.get(`${process.env.NEXT_PUBLIC_API_BASE_URL}/games`);
         setGames(res.data);
       } catch (err: any) {
@@ -30,7 +32,11 @@ export default function GamesPage() {
   }, []);
 
   if (loading) return <div className="p-4">Loading games...</div>;
-  if (error) return <div className="p-4 text-red-500">{error}</div>;
+  if (error) return (
+  <div className="p-4 text-red-500">{error}
+  <h1 className="text-2xl font-bold mb-4">Ensure Backend is setup and NBA_API is secure</h1>
+  </div>
+);
 
   return (
     <div className="p-4">

@@ -1,12 +1,23 @@
 from fastapi import FastAPI, BackgroundTasks, HTTPException
 from pydantic import BaseModel
 from typing import List, Dict, Any
-from backend.nba_api import get_upcoming_games, get_players_for_game
-from backend.model_loader import get_model_for_player
-from backend.feature_engineering import build_features
+from nba_data import get_upcoming_games, get_players_for_game, tester, playerlist
+from model_loader import get_model_for_player
+from feature_engineering import build_features
 import asyncio
+from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
+
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://localhost:3000"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
 
 # In-memory cache for games
 games_cache = []
@@ -26,6 +37,11 @@ async def cache_games():
 @app.get("/games")
 async def games():
     return games_cache
+
+@app.get("/realtest")
+async def realtest():
+    await tester()
+    return await playerlist()
 
 @app.get("/players")
 async def players(game_id: str):
