@@ -1,0 +1,601 @@
+NBA Data Collection - Excluded Players Report
+==================================================
+
+Total excluded players: 20
+Total included players: 0
+
+EXCLUDED PLAYERS DETAILS:
+------------------------------
+
+1. Player: Paul Watson
+   Game ID: 2022300052
+   Game Date: 2024-01-04
+   Player ID: 1628778
+   Team ID: 1612709890
+   Reason: Missing required data fields
+   Missing Fields (72):
+     - SEASON_Player_ID
+     - SEASON_MIN
+     - SEASON_FGM
+     - SEASON_FGA
+     - SEASON_FG_PCT
+     - SEASON_FG3M
+     - SEASON_FG3A
+     - SEASON_FG3_PCT
+     - SEASON_FTM
+     - SEASON_FTA
+     - SEASON_FT_PCT
+     - SEASON_OREB
+     - SEASON_DREB
+     - SEASON_REB
+     - SEASON_AST
+     - SEASON_STL
+     - SEASON_BLK
+     - SEASON_TOV
+     - SEASON_PF
+     - SEASON_PTS
+     - SEASON_PLUS_MINUS
+     - SEASON_VIDEO_AVAILABLE
+     - RECENT_Player_ID
+     - RECENT_MIN
+     - RECENT_FGM
+     - RECENT_FGA
+     - RECENT_FG_PCT
+     - RECENT_FG3M
+     - RECENT_FG3A
+     - RECENT_FG3_PCT
+     - RECENT_FTM
+     - RECENT_FTA
+     - RECENT_FT_PCT
+     - RECENT_OREB
+     - RECENT_DREB
+     - RECENT_REB
+     - RECENT_AST
+     - RECENT_STL
+     - RECENT_BLK
+     - RECENT_TOV
+     - RECENT_PF
+     - RECENT_PTS
+     - RECENT_PLUS_MINUS
+     - RECENT_VIDEO_AVAILABLE
+     - VS_TEAM_Player_ID
+     - VS_TEAM_MIN
+     - VS_TEAM_FGM
+     - VS_TEAM_FGA
+     - VS_TEAM_FG_PCT
+     - VS_TEAM_FG3M
+     - VS_TEAM_FG3A
+     - VS_TEAM_FG3_PCT
+     - VS_TEAM_FTM
+     - VS_TEAM_FTA
+     - VS_TEAM_FT_PCT
+     - VS_TEAM_OREB
+     - VS_TEAM_DREB
+     - VS_TEAM_REB
+     - VS_TEAM_AST
+     - VS_TEAM_STL
+     - VS_TEAM_BLK
+     - VS_TEAM_TOV
+     - VS_TEAM_PF
+     - VS_TEAM_PTS
+     - VS_TEAM_PLUS_MINUS
+     - VS_TEAM_VIDEO_AVAILABLE
+     - TEAM_W_PCT
+     - TEAM_W
+     - TEAM_L
+     - OPP_W_PCT
+     - OPP_W
+     - OPP_L
+
+--------------------------------------------------
+
+2. Player: Julian Washburn
+   Game ID: 2022300052
+   Game Date: 2024-01-04
+   Player ID: 1627395
+   Team ID: 1612709890
+   Reason: Missing required data fields
+   Missing Fields (72):
+     - SEASON_Player_ID
+     - SEASON_MIN
+     - SEASON_FGM
+     - SEASON_FGA
+     - SEASON_FG_PCT
+     - SEASON_FG3M
+     - SEASON_FG3A
+     - SEASON_FG3_PCT
+     - SEASON_FTM
+     - SEASON_FTA
+     - SEASON_FT_PCT
+     - SEASON_OREB
+     - SEASON_DREB
+     - SEASON_REB
+     - SEASON_AST
+     - SEASON_STL
+     - SEASON_BLK
+     - SEASON_TOV
+     - SEASON_PF
+     - SEASON_PTS
+     - SEASON_PLUS_MINUS
+     - SEASON_VIDEO_AVAILABLE
+     - RECENT_Player_ID
+     - RECENT_MIN
+     - RECENT_FGM
+     - RECENT_FGA
+     - RECENT_FG_PCT
+     - RECENT_FG3M
+     - RECENT_FG3A
+     - RECENT_FG3_PCT
+     - RECENT_FTM
+     - RECENT_FTA
+     - RECENT_FT_PCT
+     - RECENT_OREB
+     - RECENT_DREB
+     - RECENT_REB
+     - RECENT_AST
+     - RECENT_STL
+     - RECENT_BLK
+     - RECENT_TOV
+     - RECENT_PF
+     - RECENT_PTS
+     - RECENT_PLUS_MINUS
+     - RECENT_VIDEO_AVAILABLE
+     - VS_TEAM_Player_ID
+     - VS_TEAM_MIN
+     - VS_TEAM_FGM
+     - VS_TEAM_FGA
+     - VS_TEAM_FG_PCT
+     - VS_TEAM_FG3M
+     - VS_TEAM_FG3A
+     - VS_TEAM_FG3_PCT
+     - VS_TEAM_FTM
+     - VS_TEAM_FTA
+     - VS_TEAM_FT_PCT
+     - VS_TEAM_OREB
+     - VS_TEAM_DREB
+     - VS_TEAM_REB
+     - VS_TEAM_AST
+     - VS_TEAM_STL
+     - VS_TEAM_BLK
+     - VS_TEAM_TOV
+     - VS_TEAM_PF
+     - VS_TEAM_PTS
+     - VS_TEAM_PLUS_MINUS
+     - VS_TEAM_VIDEO_AVAILABLE
+     - TEAM_W_PCT
+     - TEAM_W
+     - TEAM_L
+     - OPP_W_PCT
+     - OPP_W
+     - OPP_L
+
+--------------------------------------------------
+
+3. Player: RaiQuan Gray
+   Game ID: 2022300052
+   Game Date: 2024-01-04
+   Player ID: 1630564
+   Team ID: 1612709890
+   Reason: Missing required data fields
+   Missing Fields (50):
+     - RECENT_Player_ID
+     - RECENT_MIN
+     - RECENT_FGM
+     - RECENT_FGA
+     - RECENT_FG_PCT
+     - RECENT_FG3M
+     - RECENT_FG3A
+     - RECENT_FG3_PCT
+     - RECENT_FTM
+     - RECENT_FTA
+     - RECENT_FT_PCT
+     - RECENT_OREB
+     - RECENT_DREB
+     - RECENT_REB
+     - RECENT_AST
+     - RECENT_STL
+     - RECENT_BLK
+     - RECENT_TOV
+     - RECENT_PF
+     - RECENT_PTS
+     - RECENT_PLUS_MINUS
+     - RECENT_VIDEO_AVAILABLE
+     - VS_TEAM_Player_ID
+     - VS_TEAM_MIN
+     - VS_TEAM_FGM
+     - VS_TEAM_FGA
+     - VS_TEAM_FG_PCT
+     - VS_TEAM_FG3M
+     - VS_TEAM_FG3A
+     - VS_TEAM_FG3_PCT
+     - VS_TEAM_FTM
+     - VS_TEAM_FTA
+     - VS_TEAM_FT_PCT
+     - VS_TEAM_OREB
+     - VS_TEAM_DREB
+     - VS_TEAM_REB
+     - VS_TEAM_AST
+     - VS_TEAM_STL
+     - VS_TEAM_BLK
+     - VS_TEAM_TOV
+     - VS_TEAM_PF
+     - VS_TEAM_PTS
+     - VS_TEAM_PLUS_MINUS
+     - VS_TEAM_VIDEO_AVAILABLE
+     - TEAM_W_PCT
+     - TEAM_W
+     - TEAM_L
+     - OPP_W_PCT
+     - OPP_W
+     - OPP_L
+
+--------------------------------------------------
+
+4. Player: Erik Stevenson
+   Game ID: 2022300052
+   Game Date: 2024-01-04
+   Reason: Player not found in API
+   Missing Fields (1):
+     - ALL - Player not found in API
+
+--------------------------------------------------
+
+5. Player: David Duke Jr.
+   Game ID: 2022300052
+   Game Date: 2024-01-04
+   Player ID: 1630561
+   Team ID: 1612709890
+   Reason: Missing required data fields
+   Missing Fields (50):
+     - RECENT_Player_ID
+     - RECENT_MIN
+     - RECENT_FGM
+     - RECENT_FGA
+     - RECENT_FG_PCT
+     - RECENT_FG3M
+     - RECENT_FG3A
+     - RECENT_FG3_PCT
+     - RECENT_FTM
+     - RECENT_FTA
+     - RECENT_FT_PCT
+     - RECENT_OREB
+     - RECENT_DREB
+     - RECENT_REB
+     - RECENT_AST
+     - RECENT_STL
+     - RECENT_BLK
+     - RECENT_TOV
+     - RECENT_PF
+     - RECENT_PTS
+     - RECENT_PLUS_MINUS
+     - RECENT_VIDEO_AVAILABLE
+     - VS_TEAM_Player_ID
+     - VS_TEAM_MIN
+     - VS_TEAM_FGM
+     - VS_TEAM_FGA
+     - VS_TEAM_FG_PCT
+     - VS_TEAM_FG3M
+     - VS_TEAM_FG3A
+     - VS_TEAM_FG3_PCT
+     - VS_TEAM_FTM
+     - VS_TEAM_FTA
+     - VS_TEAM_FT_PCT
+     - VS_TEAM_OREB
+     - VS_TEAM_DREB
+     - VS_TEAM_REB
+     - VS_TEAM_AST
+     - VS_TEAM_STL
+     - VS_TEAM_BLK
+     - VS_TEAM_TOV
+     - VS_TEAM_PF
+     - VS_TEAM_PTS
+     - VS_TEAM_PLUS_MINUS
+     - VS_TEAM_VIDEO_AVAILABLE
+     - TEAM_W_PCT
+     - TEAM_W
+     - TEAM_L
+     - OPP_W_PCT
+     - OPP_W
+     - OPP_L
+
+--------------------------------------------------
+
+6. Player: Sir'Jabari Rice
+   Game ID: 2022300052
+   Game Date: 2024-01-04
+   Reason: Player not found in API
+   Missing Fields (1):
+     - ALL - Player not found in API
+
+--------------------------------------------------
+
+7. Player: Javante McCoy
+   Game ID: 2022300052
+   Game Date: 2024-01-04
+   Reason: Player not found in API
+   Missing Fields (1):
+     - ALL - Player not found in API
+
+--------------------------------------------------
+
+8. Player: Kaleb Johnson
+   Game ID: 2022300052
+   Game Date: 2024-01-04
+   Reason: Player not found in API
+   Missing Fields (1):
+     - ALL - Player not found in API
+
+--------------------------------------------------
+
+9. Player: Yauhen Massalski
+   Game ID: 2022300052
+   Game Date: 2024-01-04
+   Reason: Player not found in API
+   Missing Fields (1):
+     - ALL - Player not found in API
+
+--------------------------------------------------
+
+10. Player: Luke Avdalovic
+   Game ID: 2022300052
+   Game Date: 2024-01-04
+   Reason: Player not found in API
+   Missing Fields (1):
+     - ALL - Player not found in API
+
+--------------------------------------------------
+
+11. Player: Justin Kier
+   Game ID: 2022300052
+   Game Date: 2024-01-04
+   Reason: Player not found in API
+   Missing Fields (1):
+     - ALL - Player not found in API
+
+--------------------------------------------------
+
+12. Player: Jordan Miller
+   Game ID: 2022300052
+   Game Date: 2024-01-04
+   Player ID: 1641757
+   Team ID: 1612709924
+   Reason: Missing required data fields
+   Missing Fields (6):
+     - TEAM_W_PCT
+     - TEAM_W
+     - TEAM_L
+     - OPP_W_PCT
+     - OPP_W
+     - OPP_L
+
+--------------------------------------------------
+
+13. Player: Bryson Williams
+   Game ID: 2022300052
+   Game Date: 2024-01-04
+   Reason: Player not found in API
+   Missing Fields (1):
+     - ALL - Player not found in API
+
+--------------------------------------------------
+
+14. Player: Joey Hauser
+   Game ID: 2022300052
+   Game Date: 2024-01-04
+   Reason: Player not found in API
+   Missing Fields (1):
+     - ALL - Player not found in API
+
+--------------------------------------------------
+
+15. Player: Joshua Primo
+   Game ID: 2022300052
+   Game Date: 2024-01-04
+   Player ID: 1630563
+   Team ID: 1612709924
+   Reason: Missing required data fields
+   Missing Fields (6):
+     - TEAM_W_PCT
+     - TEAM_W
+     - TEAM_L
+     - OPP_W_PCT
+     - OPP_W
+     - OPP_L
+
+--------------------------------------------------
+
+16. Player: Josh Hagins
+   Game ID: 2022300052
+   Game Date: 2024-01-04
+   Reason: Player not found in API
+   Missing Fields (1):
+     - ALL - Player not found in API
+
+--------------------------------------------------
+
+17. Player: Dewayne Dedmon
+   Game ID: 2022300052
+   Game Date: 2024-01-04
+   Player ID: 203473
+   Team ID: 1612709924
+   Reason: Missing required data fields
+   Missing Fields (73):
+     - START_POSITION
+     - SEASON_Player_ID
+     - SEASON_MIN
+     - SEASON_FGM
+     - SEASON_FGA
+     - SEASON_FG_PCT
+     - SEASON_FG3M
+     - SEASON_FG3A
+     - SEASON_FG3_PCT
+     - SEASON_FTM
+     - SEASON_FTA
+     - SEASON_FT_PCT
+     - SEASON_OREB
+     - SEASON_DREB
+     - SEASON_REB
+     - SEASON_AST
+     - SEASON_STL
+     - SEASON_BLK
+     - SEASON_TOV
+     - SEASON_PF
+     - SEASON_PTS
+     - SEASON_PLUS_MINUS
+     - SEASON_VIDEO_AVAILABLE
+     - RECENT_Player_ID
+     - RECENT_MIN
+     - RECENT_FGM
+     - RECENT_FGA
+     - RECENT_FG_PCT
+     - RECENT_FG3M
+     - RECENT_FG3A
+     - RECENT_FG3_PCT
+     - RECENT_FTM
+     - RECENT_FTA
+     - RECENT_FT_PCT
+     - RECENT_OREB
+     - RECENT_DREB
+     - RECENT_REB
+     - RECENT_AST
+     - RECENT_STL
+     - RECENT_BLK
+     - RECENT_TOV
+     - RECENT_PF
+     - RECENT_PTS
+     - RECENT_PLUS_MINUS
+     - RECENT_VIDEO_AVAILABLE
+     - VS_TEAM_Player_ID
+     - VS_TEAM_MIN
+     - VS_TEAM_FGM
+     - VS_TEAM_FGA
+     - VS_TEAM_FG_PCT
+     - VS_TEAM_FG3M
+     - VS_TEAM_FG3A
+     - VS_TEAM_FG3_PCT
+     - VS_TEAM_FTM
+     - VS_TEAM_FTA
+     - VS_TEAM_FT_PCT
+     - VS_TEAM_OREB
+     - VS_TEAM_DREB
+     - VS_TEAM_REB
+     - VS_TEAM_AST
+     - VS_TEAM_STL
+     - VS_TEAM_BLK
+     - VS_TEAM_TOV
+     - VS_TEAM_PF
+     - VS_TEAM_PTS
+     - VS_TEAM_PLUS_MINUS
+     - VS_TEAM_VIDEO_AVAILABLE
+     - TEAM_W_PCT
+     - TEAM_W
+     - TEAM_L
+     - OPP_W_PCT
+     - OPP_W
+     - OPP_L
+
+--------------------------------------------------
+
+18. Player: Djordije Jovanovic
+   Game ID: 2022300052
+   Game Date: 2024-01-04
+   Reason: Player not found in API
+   Missing Fields (1):
+     - ALL - Player not found in API
+
+--------------------------------------------------
+
+19. Player: Warith Alatishe
+   Game ID: 2022300052
+   Game Date: 2024-01-04
+   Reason: Player not found in API
+   Missing Fields (1):
+     - ALL - Player not found in API
+
+--------------------------------------------------
+
+20. Player: T.J. Clark
+   Game ID: 2022300052
+   Game Date: 2024-01-04
+   Reason: Player not found in API
+   Missing Fields (1):
+     - ALL - Player not found in API
+
+--------------------------------------------------
+
+MISSING FIELDS FREQUENCY ANALYSIS:
+-----------------------------------
+
+TEAM_W_PCT: 7 players missing
+TEAM_W: 7 players missing
+TEAM_L: 7 players missing
+OPP_W_PCT: 7 players missing
+OPP_W: 7 players missing
+OPP_L: 7 players missing
+RECENT_Player_ID: 5 players missing
+RECENT_MIN: 5 players missing
+RECENT_FGM: 5 players missing
+RECENT_FGA: 5 players missing
+RECENT_FG_PCT: 5 players missing
+RECENT_FG3M: 5 players missing
+RECENT_FG3A: 5 players missing
+RECENT_FG3_PCT: 5 players missing
+RECENT_FTM: 5 players missing
+RECENT_FTA: 5 players missing
+RECENT_FT_PCT: 5 players missing
+RECENT_OREB: 5 players missing
+RECENT_DREB: 5 players missing
+RECENT_REB: 5 players missing
+RECENT_AST: 5 players missing
+RECENT_STL: 5 players missing
+RECENT_BLK: 5 players missing
+RECENT_TOV: 5 players missing
+RECENT_PF: 5 players missing
+RECENT_PTS: 5 players missing
+RECENT_PLUS_MINUS: 5 players missing
+RECENT_VIDEO_AVAILABLE: 5 players missing
+VS_TEAM_Player_ID: 5 players missing
+VS_TEAM_MIN: 5 players missing
+VS_TEAM_FGM: 5 players missing
+VS_TEAM_FGA: 5 players missing
+VS_TEAM_FG_PCT: 5 players missing
+VS_TEAM_FG3M: 5 players missing
+VS_TEAM_FG3A: 5 players missing
+VS_TEAM_FG3_PCT: 5 players missing
+VS_TEAM_FTM: 5 players missing
+VS_TEAM_FTA: 5 players missing
+VS_TEAM_FT_PCT: 5 players missing
+VS_TEAM_OREB: 5 players missing
+VS_TEAM_DREB: 5 players missing
+VS_TEAM_REB: 5 players missing
+VS_TEAM_AST: 5 players missing
+VS_TEAM_STL: 5 players missing
+VS_TEAM_BLK: 5 players missing
+VS_TEAM_TOV: 5 players missing
+VS_TEAM_PF: 5 players missing
+VS_TEAM_PTS: 5 players missing
+VS_TEAM_PLUS_MINUS: 5 players missing
+VS_TEAM_VIDEO_AVAILABLE: 5 players missing
+SEASON_Player_ID: 3 players missing
+SEASON_MIN: 3 players missing
+SEASON_FGM: 3 players missing
+SEASON_FGA: 3 players missing
+SEASON_FG_PCT: 3 players missing
+SEASON_FG3M: 3 players missing
+SEASON_FG3A: 3 players missing
+SEASON_FG3_PCT: 3 players missing
+SEASON_FTM: 3 players missing
+SEASON_FTA: 3 players missing
+SEASON_FT_PCT: 3 players missing
+SEASON_OREB: 3 players missing
+SEASON_DREB: 3 players missing
+SEASON_REB: 3 players missing
+SEASON_AST: 3 players missing
+SEASON_STL: 3 players missing
+SEASON_BLK: 3 players missing
+SEASON_TOV: 3 players missing
+SEASON_PF: 3 players missing
+SEASON_PTS: 3 players missing
+SEASON_PLUS_MINUS: 3 players missing
+SEASON_VIDEO_AVAILABLE: 3 players missing
+START_POSITION: 1 players missing

@@ -135,13 +135,38 @@ def get_game_data(season, start_date, end_date, output_csv):
     except CriticalTimeoutException as e:
         print("Critical timeout encountered. Saving collected data and exiting:", e)
     finally:
-        # Write to CSV with all fieldnames
-        print("Writing data to CSV:")
+        if not row_data_list:
+            print("No data collected.")
+            return
+
+        print("Organizing and writing data to CSV:")
+        
+        # Use the first collected row to build fieldnames in an organized fashion
+        first_row = row_data_list[0]
+
+        # Categorize columns by their prefixes
+        boxscore_columns = [col for col in first_row if not any(col.startswith(prefix) for prefix in ['SEASON_', 'RECENT_', 'VS_TEAM_', 'TEAM_', 'OPP_'])]
+        season_avg_columns = [col for col in first_row if col.startswith('SEASON_')]
+        recent_avg_columns = [col for col in first_row if col.startswith('RECENT_')]
+        vs_team_columns = [col for col in first_row if col.startswith('VS_TEAM_')]
+        team_stats_columns = [col for col in first_row if col.startswith('TEAM_')]
+        opp_stats_columns = [col for col in first_row if col.startswith('OPP_')]
+
+        # Final column order
+        ordered_fieldnames = (
+            boxscore_columns +
+            season_avg_columns +
+            recent_avg_columns +
+            vs_team_columns +
+            team_stats_columns +
+            opp_stats_columns
+        )
+
         with open(output_csv, mode='w', newline='', encoding='utf-8') as f:
-            writer = csv.DictWriter(f, fieldnames=list(all_fieldnames))
+            writer = csv.DictWriter(f, fieldnames=ordered_fieldnames)
             writer.writeheader()
             for row_data in row_data_list:
                 writer.writerow(row_data)
 
 # Example usage:
-get_game_data("2023-24", "2024-01-04", "2024-01-04", "nba_games_output.csv")
+#get_game_data("2023-24", "2024-01-04", "2024-01-04", "nba_games_output_organized1.csv")

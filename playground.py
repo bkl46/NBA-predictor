@@ -1,4 +1,5 @@
 import collect
+import collection
 import csv
 from datetime import datetime, timedelta
 from nba_api.stats.endpoints import playergamelog, boxscoretraditionalv2, leaguegamefinder, commonplayerinfo, teamgamelog, teamyearbyyearstats, commonteamroster
@@ -7,8 +8,6 @@ import pandas as pd
 import time
 
 
-games_df = collect.safe_api_call(leaguegamefinder.LeagueGameFinder, season_nullable="2023-24").get_data_frames()[0].head(1)
-print(games_df)
-boxscore = collect.safe_api_call(boxscoretraditionalv2.BoxScoreTraditionalV2, game_id=games_df["GAME_ID"]).get_data_frames()[0]
+save = collect.safe_api_call(playergamelog.PlayerGameLog, player_id='203999', season="2023-24")
 
-print(boxscore.head(1))
+print(save.get_data_frames()[0].head())

@@ -1,0 +1,7 @@
+NBA Data Collection - Excluded Players Report
+==================================================
+
+Total excluded players: 0
+Total included players: 5
+
+No players were excluded - all processed players had complete data.
