@@ -5,6 +5,8 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import r2_score
 import xgboost as xgb
+import joblib
+import os
 
 
 path = r'C:\Users\ucbra\OneDrive\Documents\NBA\data_collection\output\nba_games_output_organized20.csv'
@@ -69,4 +71,8 @@ input_features = input_df[feature_columns]
 # Predict
 prediction = model.predict(input_features)
 print("Predicted stats:", dict(zip(target_columns, prediction[0])))
-# ...existing code...
+
+iteration = 1
+model_path = r'C:\Users\ucbra\OneDrive\Documents\NBA\analytics\models'
+final_path = os.path.join(model_path, f'nba_xgb_multioutput_model{iteration}.joblib')
+joblib.dump(model, final_path )
