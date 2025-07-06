@@ -1,7 +1,7 @@
 from fastapi import FastAPI, BackgroundTasks, HTTPException
 from pydantic import BaseModel
 from typing import List, Dict, Any
-from nba_data import get_upcoming_games, get_players_for_game, tester, playerlist
+from nba_data import get_upcoming_games, get_players_for_game, tester, playerlist, get_game_details
 from model_loader import get_model_for_player
 from feature_engineering import build_features
 import asyncio
@@ -46,6 +46,13 @@ async def realtest():
 @app.get("/players")
 async def players(game_id: str):
     return await get_players_for_game(game_id)
+
+@app.get("/games/{game_id}")
+async def game_details(game_id: str):
+    game_details = await get_game_details(game_id)
+    if not game_details:
+        raise HTTPException(status_code=404, detail="Game not found")
+    return game_details
 
 @app.post("/predict")
 async def predict(request: PredictRequest):

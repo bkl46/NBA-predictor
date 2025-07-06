@@ -44,7 +44,7 @@ export default function GamesPage() {
       <ul className="space-y-2">
         {games.map((game) => (
           <li key={game.id} className="border p-2 rounded hover:bg-gray-100">
-            <a href={`/players/${game.id}`} className="text-blue-600 hover:underline">
+            <a href={`/games/${game.id}?date=${encodeURIComponent(game.date)}`} className="text-blue-600 hover:underline">
               {game.teams} - {game.date}
             </a>
           </li>

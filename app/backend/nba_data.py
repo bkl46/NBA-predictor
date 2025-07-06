@@ -7,9 +7,9 @@ from nba_api.stats.static import teams, players
 import pandas as pd
 import time
 import os
+import numpy as np
 
-
-# Mock data for development
+# test data
 MOCK_GAMES = [
     {"id": "1", "date": "2024-01-15", "teams": "Lakers vs Warriors"},
     {"id": "2", "date": "2024-01-16", "teams": "Celtics vs Heat"},
@@ -23,7 +23,10 @@ MOCK_PLAYERS = [
 ]
 class CriticalTimeoutException(Exception):
     pass
-waittime = 5  # seconds, adjust as needed
+
+waittime = 5  
+
+
 async def tester():
     print("Testing NBA API connection...")
     save =  await safe_api_call(playergamelog.PlayerGameLog, player_id='203999', season="2023-24")
@@ -38,6 +41,8 @@ async def playerlist()-> List[Dict[str, Any]]:
     except Exception as e:
         print(f"NBA API error: {e}. Using mock data.")
         return MOCK_PLAYERS
+    
+#send api calls safely with retry logic
 async def safe_api_call(endpoint_cls, **kwargs):
     print("Making API call to:", endpoint_cls.__name__, "with args:", kwargs)
     global waittime
@@ -60,25 +65,43 @@ async def safe_api_call(endpoint_cls, **kwargs):
 
 async def get_upcoming_games() -> List[Dict[str, Any]]:
     try:
-        # Use the NBA API package to get upcoming games
         gamefinder = leaguegamefinder.LeagueGameFinder(
             season_nullable="2023-24",
             league_id_nullable="00"
         )
         games = gamefinder.get_data_frames()[0]
         
-        # Convert to the expected format
+        # Remove duplicates by GAME_ID before processing
+        unique_games = games.drop_duplicates(subset=['GAME_ID']).head(10)
+        
         upcoming_games = []
-        for _, game in games.head(10).iterrows():
+        for _, game in unique_games.iterrows():
             upcoming_games.append({
                 "id": str(game['GAME_ID']),
                 "date": game['GAME_DATE'],
                 "teams": f"{game['TEAM_NAME']} vs {game['MATCHUP']}"
             })
+        
         return upcoming_games
     except Exception as e:
         print(f"NBA API error: {e}. Using mock data.")
         return MOCK_GAMES
+
+async def get_game_details(game_id: str) -> Dict[str, Any]:
+    print("ive been hit")
+    try:
+        boxscore = boxscoretraditionalv2.BoxScoreTraditionalV2(game_id=game_id)
+        game_data = boxscore.get_data_frames()[0]
+        if game_data.empty:
+            print("fail")
+            return None
+        
+        game_data = game_data.replace({np.nan: None, np.inf: None, -np.inf: None})
+
+        return game_data.to_dict(orient='records')
+    except Exception as e:
+        print(f"failure for game {game_id}: {e}")
+
 
 async def get_players_for_game(game_id: str) -> List[Dict[str, Any]]:
     try:
