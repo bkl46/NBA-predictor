@@ -75,4 +75,4 @@ print("Predicted stats:", dict(zip(target_columns, prediction[0])))
 iteration = 1
 model_path = r'C:\Users\ucbra\OneDrive\Documents\NBA\analytics\models'
 final_path = os.path.join(model_path, f'nba_xgb_multioutput_model{iteration}.joblib')
-joblib.dump(model, final_path )
+#joblib.dump(model, final_path )

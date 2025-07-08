@@ -119,3 +119,17 @@ async def get_players_for_game(game_id: str) -> List[Dict[str, Any]]:
     except Exception as e:
         print(f"NBA API error: {e}. Using mock data.")
         return MOCK_PLAYERS 
+
+def get_nba_teams() -> List[Dict[str, Any]]:
+    """
+    Returns a list of all NBA teams with their id and name.
+    """
+    try:
+        all_teams = teams.get_teams()
+        return [
+            {"id": str(team["id"]), "name": f'{team["full_name"]} ({team["abbreviation"]})'}
+            for team in all_teams
+        ]
+    except Exception as e:
+        print(f"NBA API error: {e}. Returning empty team list.")
+        return [] 
